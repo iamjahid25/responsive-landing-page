@@ -1,0 +1,382 @@
+/* font in this code */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); /*for heading text*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); /*for button text*/
+@font-face {
+    font-family: croogla;
+    src: url(font/Croogla4F.ttf);
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+/* header/navbar codes are here */
+.Mylogo{
+    font-family: croogla;
+    font-size: 2.5rem;
+    color: #0870AB;
+}
+.bg-light{
+    background-color: #fff !important;
+}
+
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px 0px 100px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #0870AB;
+    padding-left: 20px;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #2e87bb;
+
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #2e87bb;
+
+}
+
+/* hero section codes are here */
+.heroSecImg{
+    background-image: url(img/HeroBg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+.heroImgBg{
+    height: 500px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.562);
+}
+
+.heroImgBg h1{
+    text-align: left;
+    color: #fff;
+    padding-top: 200px;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    font-size: 3rem;
+}
+
+/* Blue line codes are here */
+.blueLine{
+    background-color: #137da8;
+    height: auto;
+    padding: 15px 0px 15px 0px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+.blueLine h6{
+    padding-top: 7px;
+}
+
+
+/* second section/ what we do code here */
+
+.whatWeDoSec{
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+    padding: 80px 0px 0px 0px;
+}
+
+.sec1{
+    align-items: center;
+}
+
+.sec1 h2{
+    text-align: right;
+    color: #0870AB;
+    font-size: 2.2rem;
+}
+
+.sec1 p{
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: none;
+    color: #808081;
+}
+
+
+.sec2{
+    align-items: center;
+}
+
+.sec2 h2{
+    text-align: left;
+    color: #0870AB;
+    font-size: 2.2rem;
+}
+
+.sec2 p{
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: none;
+    color: #808081;
+}
+
+
+.btn{
+    height: 40px;
+    width: 120px;
+    background-color: #0870AB;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    border-radius: 30px 30px 30px 30px;
+    float: right;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #00507e;
+}
+
+.mblSec{
+    display: none;
+}
+
+.desktopSec{
+    display: block;
+}
+
+
+/* third section / what we are section */
+.whatWeAre{
+    height: auto;
+    width: 100%;
+    padding: 80px 0px 80px 0px;
+    background-color: #F4F7F8;
+}
+
+
+/* contact form section code here */
+
+.contactForm{
+    height: auto;
+    width: 100%;
+    padding: 100px 0px 100px 0px;
+    background-color: #fff;
+}
+.contactH2Text{
+    text-align: center; 
+    color: #353535;
+    margin-bottom: 30px;
+    font-weight: bold; 
+    letter-spacing: 0.5rem; 
+    font-size: 2.5rem;
+}
+
+
+.form{
+    height: 350px;
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 5px;
+    z-index: 9999;
+   
+  }
+  .form1{
+    padding-top: 30px;
+  
+  }
+  .form-control{
+    height: 55px;
+    padding-top: 10px;
+  }
+  input{
+      box-shadow: none !important;
+  }
+  input:active, input:focus{
+      border-color: gray !important;
+  }
+  
+
+
+
+
+
+
+
+/* footer codes are here */
+
+.footer{
+    height: auto;
+    color: white;
+    width: 100%;
+    padding: 60px 0px 60px 0px;
+    background-color: black;
+}
+
+.footer h4{
+    font-weight: bold;
+}
+
+.footer p{
+    font-size: 12px;
+    line-height: 2;
+}
+.footer span{
+    font-size: 12px;
+}
+
+
+
+
+
+
+/* small device codes here */
+
+@media screen and (max-width: 995px) {
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+       
+        padding: 0px 10px 0px 10px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+       
+        padding: 0px 10px 0px 10px;
+    }
+    .Mylogo{
+        font-family: croogla;
+        font-size: 1.8rem;
+        color: #0870AB;
+    }
+    .heroImgBg h1{
+        text-align: left;
+        color: #fff;
+        padding-top: 200px;
+        text-transform: uppercase;
+        letter-spacing: 0.8rem;
+        font-size: 2rem;
+    }
+    .sec1 h2 {
+        font-size: 1.5rem;
+    }
+
+    .mblSec{
+        display: block;
+    }
+    .desktopSec{
+        display: none;
+    }
+
+
+    
+}
+
+
+@media screen and (max-width: 320px) {
+    .heroImgBg h1{
+        font-size: 1.8rem;
+    }
+    .Mylogo {
+        font-size: 1.6rem;
+    }
+    .sec1 h2 {
+        font-size: 1.5rem;
+    }
+    .sec2 h2 {
+        font-size: 1.8rem;
+    }
+    .contactH2Text{
+        font-size: 1.8rem;
+    }
+
+}
+
+
+@media screen and (max-width: 280px) {
+    .heroImgBg h1{
+        font-size: 1.5rem;
+    }
+    .sec2 h2 {
+        font-size: 1.5rem;
+    }
+    .sec1 h2 {
+        font-size: 1.5rem;
+    }
+    .contactH2Text{
+        font-size: 1.5rem;
+    }
+
+    .Mylogo {
+        font-size: 1.6rem;
+    }
+
+}
+
+
+
+
+/* back to top section here */
+/* for desktop */
+.BackToTop {
+	position:fixed;
+    display: none;
+	width:40px;
+	height:40px;
+	bottom:40px;
+	right:40px;
+	background-color:#0870AB;
+	color:#FFF;
+	border-radius:4px;
+	text-align:center;
+        font-size:20px;
+        z-index:100;
+        transition: 0.5s
+        
+}
+.BackToTop:hover {
+    color: #fff;
+}
+
+.Top-icon {
+	margin-top:12px;
+}
+/* for mobile */
+@media screen and (max-width: 767px){
+     .Top-icon {
+	 margin-top:10px;
+     }
+    .BackToTop {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 10px;
+        font-size: 22px;
+    }
+}
+
